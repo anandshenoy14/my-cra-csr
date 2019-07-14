@@ -1,7 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Demo
+### `Goto http://localhost:3000/orgchart`
 
 ![](demo/ChartAppv1.gif)
+
 ## Available Scripts
 
 In the project directory, you can run:
