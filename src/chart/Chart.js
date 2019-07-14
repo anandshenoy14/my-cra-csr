@@ -104,7 +104,7 @@ class Chart extends React.Component{
     render(){
         return (
             <div>
-                <input type="text" onChange={this.searchAndUpdate.bind(this)} value={this.props.children}></input>
+                <input type="text" placeholder="Enter name" onChange={this.searchAndUpdate.bind(this)} value={this.props.children}></input>
                 <div><EmployeeList employees={this.state.current.employees} ceo="y"></EmployeeList></div>
             </div>
         )
