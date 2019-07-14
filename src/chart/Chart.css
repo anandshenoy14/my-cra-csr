@@ -1,0 +1,9 @@
+ul{
+    list-style-type : none;
+}
+.hide{
+    display : none;
+}
+li{
+    border-left: 1px solid goldenrod;
+}

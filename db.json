@@ -1,0 +1,133 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server_2",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "cards": [
+    {
+      "user": {
+        "avatarUrl": "https://pbs.twimg.com/profile_images/378800000621061189/66954ff9d93d261e5699a2bf80d685d7_400x400.jpeg",
+        "name": "Neo Legolas",
+        "handle": "@anandshenoy14"
+      },
+      "message": "This is an awesome day",
+      "interactions": [
+        {
+          "type": "likes",
+          "number": "51"
+        },
+        {
+          "type": "retweets",
+          "number": "23"
+        },
+        {
+          "type": "replies",
+          "number": "16"
+        }
+      ],
+      "postedDate": "25m"
+    }
+  ],
+  "employeelist" : [
+    {
+      "id" : 1,
+      "name" : "CEO",
+      "employees" : [
+        {
+          "id" : 2,
+          "name" : "CTO",
+          "employees" : [
+            {
+              "id" : 3,
+              "name" : "Adam L"
+            },
+            {
+              "id" : 4,
+              "name" : "Eve M"
+            }
+          ]
+        },
+        {
+          "id" : 5,
+          "name" : "CMO",
+          "employees" : [
+            {
+              "id" : 6,
+              "name" : "Virat Kohli"
+            },
+            {
+              "id" : 7,
+              "name" : "Rohit Sharma"
+            },
+            {
+              "id" : 8,
+              "name" : "Ravindra Jadeja"
+            },
+            {
+              "id" : 9,
+              "name" : "MS Dhoni"
+            }
+          ] 
+        },
+        {
+          "id" : 10,
+          "name" : "COO",
+          "employees" : [
+            {
+              "id" : 11,
+              "name" : "Arsene Wenger",
+              "employees" : [
+                {
+                  "id" : 12,
+                  "name" : "Ivan Gazidis"
+                },{
+                  "id" : 13,
+                  "name" : "Stan Kroenke"
+                }
+              ]
+            },{
+              "id" : 13,
+              "name" : "Tony Stark"
+            },
+            {
+              "id" : 14,
+              "name" : "Chris Evans"
+            }
+          ]
+        },
+        {
+          "id" : 15,
+          "name" : "Chairman",
+          "employees" : [
+            {
+              "id" : 16,
+              "name" : "DS Backland"
+            }
+          ]
+        },
+        {
+          "id" : 17,
+          "name" : "CFO"
+        }
+      ]
+    }
+    ]
+}
