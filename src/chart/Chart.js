@@ -10,6 +10,7 @@ function EmployeeList(props) {
         <ul className={employees.length > 0 && props.ceo === undefined ? 'hide' : ''}>{listItems}</ul>
     );
 }
+
 function Employee(props) {
     const employee = props.employee;
     const expandCollapse = function (e) {
@@ -83,6 +84,12 @@ class Chart extends React.Component{
         })
         return result;
     }
+    /**
+     *
+     *
+     * @param {*} employee
+     * @memberof Chart
+     */
     searchAndUpdate(e){
         let inputSearchTerm = (e.target) && (e.target.value);
         let employees = this.state.original.employees;
